@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526458A5290542D900A1B493 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52645898290542D800A1B493 /* StatusUI.swift */; };
+		526458A6290542D900A1B493 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52645899290542D800A1B493 /* CircleBackground.swift */; };
+		526458A7290542D900A1B493 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264589B290542D800A1B493 /* RoundButton.swift */; };
+		526458A8290542D900A1B493 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264589C290542D800A1B493 /* CircleButton.swift */; };
+		526458A9290542D900A1B493 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264589D290542D800A1B493 /* DateButton.swift */; };
+		526458AA290542D900A1B493 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264589E290542D800A1B493 /* TimeButton.swift */; };
+		526458AB290542D900A1B493 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264589F290542D800A1B493 /* utils.swift */; };
+		526458AC290542D900A1B493 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526458A1290542D800A1B493 /* PosterData.swift */; };
+		526458AD290542D900A1B493 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526458A2290542D800A1B493 /* TicketData.swift */; };
+		526458AE290542D900A1B493 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526458A4290542D800A1B493 /* TicketView.swift */; };
 		52EEB8CD28E7058600821A73 /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB8CC28E7058600821A73 /* MovieBookingApp.swift */; };
 		52EEB8CF28E7058600821A73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEB8CE28E7058600821A73 /* ContentView.swift */; };
 		52EEB8D128E7058700821A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EEB8D028E7058700821A73 /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52645898290542D800A1B493 /* StatusUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
+		52645899290542D800A1B493 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		5264589B290542D800A1B493 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		5264589C290542D800A1B493 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		5264589D290542D800A1B493 /* DateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
+		5264589E290542D800A1B493 /* TimeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		5264589F290542D800A1B493 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		526458A1290542D800A1B493 /* PosterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
+		526458A2290542D800A1B493 /* TicketData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		526458A4290542D800A1B493 /* TicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		52EEB8C928E7058600821A73 /* MovieBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EEB8CC28E7058600821A73 /* MovieBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
 		52EEB8CE28E7058600821A73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +52,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52645897290542D800A1B493 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52645898290542D800A1B493 /* StatusUI.swift */,
+				52645899290542D800A1B493 /* CircleBackground.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5264589A290542D800A1B493 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5264589B290542D800A1B493 /* RoundButton.swift */,
+				5264589C290542D800A1B493 /* CircleButton.swift */,
+				5264589D290542D800A1B493 /* DateButton.swift */,
+				5264589E290542D800A1B493 /* TimeButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		526458A0290542D800A1B493 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				526458A1290542D800A1B493 /* PosterData.swift */,
+				526458A2290542D800A1B493 /* TicketData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		526458A3290542D800A1B493 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				526458A4290542D800A1B493 /* TicketView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		52EEB8C028E7058600821A73 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +108,13 @@
 		52EEB8CB28E7058600821A73 /* MovieBooking */ = {
 			isa = PBXGroup;
 			children = (
+				52645897290542D800A1B493 /* UI */,
+				526458A0290542D800A1B493 /* Data */,
+				5264589A290542D800A1B493 /* Buttons */,
+				526458A3290542D800A1B493 /* Views */,
 				52EEB8CC28E7058600821A73 /* MovieBookingApp.swift */,
 				52EEB8CE28E7058600821A73 /* ContentView.swift */,
+				5264589F290542D800A1B493 /* utils.swift */,
 				52EEB8D028E7058700821A73 /* Assets.xcassets */,
 				52EEB8D228E7058700821A73 /* Preview Content */,
 			);
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526458AB290542D900A1B493 /* utils.swift in Sources */,
 				52EEB8CF28E7058600821A73 /* ContentView.swift in Sources */,
+				526458A9290542D900A1B493 /* DateButton.swift in Sources */,
+				526458A7290542D900A1B493 /* RoundButton.swift in Sources */,
+				526458AD290542D900A1B493 /* TicketData.swift in Sources */,
 				52EEB8CD28E7058600821A73 /* MovieBookingApp.swift in Sources */,
+				526458AE290542D900A1B493 /* TicketView.swift in Sources */,
+				526458A8290542D900A1B493 /* CircleButton.swift in Sources */,
+				526458A5290542D900A1B493 /* StatusUI.swift in Sources */,
+				526458AA290542D900A1B493 /* TimeButton.swift in Sources */,
+				526458AC290542D900A1B493 /* PosterData.swift in Sources */,
+				526458A6290542D900A1B493 /* CircleBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
