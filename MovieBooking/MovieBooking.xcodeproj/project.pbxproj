@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5224E59B29166B3900ADA4E1 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224E59A29166B3900ADA4E1 /* Tickets.swift */; };
+		5224E59D291677E100ADA4E1 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224E59C291677E100ADA4E1 /* TabData.swift */; };
+		5224E59F2916797400ADA4E1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224E59E2916797400ADA4E1 /* CustomTabBar.swift */; };
 		526458A5290542D900A1B493 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52645898290542D800A1B493 /* StatusUI.swift */; };
 		526458A6290542D900A1B493 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52645899290542D800A1B493 /* CircleBackground.swift */; };
 		526458A7290542D900A1B493 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264589B290542D800A1B493 /* RoundButton.swift */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		5224E59A29166B3900ADA4E1 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		5224E59C291677E100ADA4E1 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		5224E59E2916797400ADA4E1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		52645898290542D800A1B493 /* StatusUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
 		52645899290542D800A1B493 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		5264589B290542D800A1B493 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 			children = (
 				52645898290542D800A1B493 /* StatusUI.swift */,
 				52645899290542D800A1B493 /* CircleBackground.swift */,
+				5224E59E2916797400ADA4E1 /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -81,6 +86,7 @@
 			children = (
 				526458A1290542D800A1B493 /* PosterData.swift */,
 				526458A2290542D800A1B493 /* TicketData.swift */,
+				5224E59C291677E100ADA4E1 /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -214,8 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				526458AB290542D900A1B493 /* utils.swift in Sources */,
+				5224E59D291677E100ADA4E1 /* TabData.swift in Sources */,
 				52EEB8CF28E7058600821A73 /* ContentView.swift in Sources */,
 				526458A9290542D900A1B493 /* DateButton.swift in Sources */,
+				5224E59F2916797400ADA4E1 /* CustomTabBar.swift in Sources */,
 				526458A7290542D900A1B493 /* RoundButton.swift in Sources */,
 				526458AD290542D900A1B493 /* TicketData.swift in Sources */,
 				52EEB8CD28E7058600821A73 /* MovieBookingApp.swift in Sources */,
