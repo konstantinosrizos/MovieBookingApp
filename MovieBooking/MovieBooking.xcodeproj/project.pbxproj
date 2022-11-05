@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5224E59B29166B3900ADA4E1 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224E59A29166B3900ADA4E1 /* Tickets.swift */; };
 		526458A5290542D900A1B493 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52645898290542D800A1B493 /* StatusUI.swift */; };
 		526458A6290542D900A1B493 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52645899290542D800A1B493 /* CircleBackground.swift */; };
 		526458A7290542D900A1B493 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264589B290542D800A1B493 /* RoundButton.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5224E59A29166B3900ADA4E1 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		52645898290542D800A1B493 /* StatusUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
 		52645899290542D800A1B493 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		5264589B290542D800A1B493 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				526458B02905485100A1B493 /* Ticket.swift */,
+				5224E59A29166B3900ADA4E1 /* Tickets.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				526458AA290542D900A1B493 /* TimeButton.swift in Sources */,
 				526458AC290542D900A1B493 /* PosterData.swift in Sources */,
 				526458A6290542D900A1B493 /* CircleBackground.swift in Sources */,
+				5224E59B29166B3900ADA4E1 /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
